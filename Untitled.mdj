@@ -1,0 +1,114 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGGI6a7zfqHHT0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "use case",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGGI6cmUfqL1bc=",
+					"_parent": {
+						"$ref": "AAAAAAGGI6a7zfqHHT0="
+					},
+					"name": "UseCaseDiagram1"
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAGGI6c6OfqOEog=",
+					"_parent": {
+						"$ref": "AAAAAAGGI6a7zfqHHT0="
+					},
+					"name": "Actor1"
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAGGI6dG4Pq33uw=",
+					"_parent": {
+						"$ref": "AAAAAAGGI6a7zfqHHT0="
+					},
+					"name": "Actor2"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGGI6dRXPrgbhE=",
+					"_parent": {
+						"$ref": "AAAAAAGGI6a7zfqHHT0="
+					},
+					"name": "UseCase1"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGGI+QyorIda0c=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "use cases ",
+			"ownedElements": [
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAGGI+X5dbIhWmc=",
+					"_parent": {
+						"$ref": "AAAAAAGGI+QyorIda0c="
+					},
+					"name": "use case globale",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCaseDiagram",
+							"_id": "AAAAAAGGI+Z9C7IlIOE=",
+							"_parent": {
+								"$ref": "AAAAAAGGI+X5dbIhWmc="
+							},
+							"name": "globale use case"
+						}
+					]
+				},
+				{
+					"_type": "UMLModel",
+					"_id": "AAAAAAGGI+cZ+7IpmRQ=",
+					"_parent": {
+						"$ref": "AAAAAAGGI+QyorIda0c="
+					},
+					"name": "uc gestion profil ",
+					"ownedElements": [
+						{
+							"_type": "UMLUseCaseDiagram",
+							"_id": "AAAAAAGGI+fztrIukSg=",
+							"_parent": {
+								"$ref": "AAAAAAGGI+cZ+7IpmRQ="
+							},
+							"name": "gestion profil "
+						}
+					]
+				}
+			]
+		}
+	]
+}
